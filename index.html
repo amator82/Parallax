@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Parallax</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="container">
+                <header class="header">
+                    <div class="header__container">
+                        <div class="header__layers layers">
+                            <div class="layers__header">
+                                <div class="layers__caption">
+                                    Welcome to Parallax
+                                </div>
+                                <div class="layers__title">Fairy Forest</div>
+                            </div>
+                            <div
+                                class="layer layers__base"
+                                style="
+                                    background-image: url(img/layer-base.png);
+                                "
+                            ></div>
+                            <div
+                                class="layer layers__middle"
+                                style="
+                                    background-image: url(img/layer-middle.png);
+                                "
+                            ></div>
+                            <div
+                                class="layer layers__front"
+                                style="
+                                    background-image: url(img/layer-front.png);
+                                "
+                            ></div>
+                        </div>
+                    </div>
+                </header>
+                <article
+                    class="main-article"
+                    style="background-image: url(img/dungeon.jpg)"
+                >
+                    <div class="main-article__container">
+                        <div class="main-article__content">
+                            <h2 class="main-article__title">To be continued</h2>
+                            <p class="main-article__text">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ullam nam assumenda rerum
+                                recusandae commodi accusamus corporis
+                                architecto, rem eveniet atque error facilis
+                                mollitia doloribus molestiae cumque quam qui
+                                adipisci esse. Quo, ratione!
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <script src="libs/gsap/gsap.min.js" defer></script>
+        <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+        <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+        <script src="js/app.js" defer></script>
+    </body>
+</html>
